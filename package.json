@@ -2,7 +2,7 @@
   "name": "form-filler",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Yusuf023.github.io/form_filler",
+  "homepage": "https://Yusuf023.github.io/form-filler",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.11.17",
