@@ -1,0 +1,9 @@
+{
+  "short_name": "Auto form filler",
+  "name": "Auto form filler",
+  "author": "Mohammad Yusuf",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
