@@ -61,6 +61,7 @@ function NewField({ fieldType, index }) {
             options={options}
             inputId={"select" + index}
             instanceId={"select" + index}
+            classNamePrefix="react-select"
           />
         </Form.Group>
       );
@@ -129,7 +130,12 @@ export default function Demo() {
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Select an option</Form.Label>
-            <Select options={options} inputId="select" instanceId="select" />
+            <Select
+              options={options}
+              inputId="select"
+              instanceId="select"
+              classNamePrefix="react-select"
+            />
           </Form.Group>
           <Form.Group className="mb-3" controlId="checkbox">
             <Form.Check type="checkbox" label="Check me out" />
