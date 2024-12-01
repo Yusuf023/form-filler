@@ -55,9 +55,13 @@ function NewField({ fieldType, index }) {
       );
     case "select":
       return (
-        <Form.Group className="mb-3" controlId={"select" + index}>
+        <Form.Group className="mb-3">
           <Form.Label>Select an option</Form.Label>
-          <Select options={options} inputId={"select" + index} />
+          <Select
+            options={options}
+            inputId={"select" + index}
+            instanceId={"select" + index}
+          />
         </Form.Group>
       );
     default:
@@ -123,9 +127,9 @@ export default function Demo() {
               customInput={<Form.Control type="text" />}
             />
           </Form.Group>
-          <Form.Group className="mb-3" controlId="select">
+          <Form.Group className="mb-3">
             <Form.Label>Select an option</Form.Label>
-            <Select options={options} inputId="select" />
+            <Select options={options} inputId="select" instanceId="select" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="checkbox">
             <Form.Check type="checkbox" label="Check me out" />
